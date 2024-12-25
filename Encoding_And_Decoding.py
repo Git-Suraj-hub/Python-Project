@@ -65,7 +65,7 @@ while True:
                 words[i] = words[i][::-1]
                 words[i] = words[i][1:] + words[i][0]
         a=" ".join(words);
-        print(Fore.LIGHTMAGENTA_EX + f"after the decryption of message : {a}")
+        print(Fore.LIGHTMAGENTA_EX + f"after the decrypt your message : {a}")
         break
     else:
         print(Fore.RED + "Password Incorrect Please Type Again")
